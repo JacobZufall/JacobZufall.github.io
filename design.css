@@ -1,0 +1,42 @@
+/* Applies to everything on the page. */
+* {
+    font-family: "Trebuchet MS", serif;
+}
+
+.topNav {
+
+}
+
+.iconLink:hover {
+    color: gray;
+}
+
+/* Horizontal Lists */
+.hList {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hListItem {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.accreditation {
+    color: gray;
+    font-size: 10px;
+}
+
+/* For the fixed footer at the bottom of every page. */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
