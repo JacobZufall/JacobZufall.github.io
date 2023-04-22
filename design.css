@@ -1,6 +1,6 @@
 /* Applies to everything on the page. */
 * {
-    font-family: "Trebuchet MS", serif;
+    font-family: "Trebuchet MS", serif; /* Default and fall-back font. */
 }
 
 .topNav {
@@ -28,6 +28,30 @@
 .accreditation {
     color: gray;
     font-size: 10px;
+}
+
+/* For the fixed navigation bar at the top of every page. */
+.navBar {
+    text-align: left;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    color: black;
 }
 
 /* For the fixed footer at the bottom of every page. */
