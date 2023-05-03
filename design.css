@@ -1,6 +1,11 @@
 /* Applies to everything on the page. */
 * {
     font-family: "Trebuchet MS", serif; /* Default and fall-back font. */
+
+    /* Prevents over-scrolling horizontally and vertically. */
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .topNav {
